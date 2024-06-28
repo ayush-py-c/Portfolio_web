@@ -1,0 +1,203 @@
+.color {
+  
+  background-color: rgb(247, 219, 92);
+  
+}
+.shadow{
+  filter: drop-shadow(1px 1px 50px orange);
+}
+.font{
+    font-weight: 800;
+}
+.other {
+    background-color: #FEFFD2;
+    height:172rem;
+    margin: 100px;
+    margin-top: 60px;
+    /* margin-bottom: 20px; */
+    border: 3px solid black;
+    border-radius: 9%;
+    word-wrap: break-word;
+    box-shadow: 15px 15px;
+}
+
+.container {
+    display: flex;
+    /* background-color: brown; */
+    padding-top: 30px;
+}
+
+img {
+    margin: 2px;
+    padding-left: 20px;
+    
+
+}
+
+.para {
+    float: inline-end;
+    width: 30rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 900;
+    font-size: xx-large;
+    /* background-color: blue; */
+}
+
+.para2 {
+    margin-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* .button{
+    background-color: rgb(251, 163, 0);
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 9%;
+    word-wrap: break-word;
+    box-shadow: 15px 15px;
+    float: inline-end;
+    margin-top: 40px;
+    
+    
+    
+   
+} */
+
+
+.button2 {
+    background-color: rgb(251, 163, 0);
+    color: black;
+    /* padding: 10px 20px; */
+    border: 3px solid black;
+    /* border-radius: 9%; */
+    cursor: pointer;
+    -moz-transition-delay: .5ms background-color 0.3s; /* add transition effect */
+    box-shadow: 15px 15px;
+    float: inline-end;
+    margin-top: 40px;
+  }
+  
+  .button2:hover {
+    background-color:rgb(250, 255, 102);
+  }
+  
+  .button2:active {
+    background-color: rgb(234, 234, 54);
+    transform: translateY(2px); /* add animation effect */
+  }
+
+.button {
+    background-color: rgb(251, 163, 0);
+    text-decoration: none;
+    color: black;
+    
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 9%;
+    cursor: pointer;
+    -moz-transition-delay: .5ms background-color 0.3s; /* add transition effect */
+    box-shadow: 15px 15px;
+    float: inline-end;
+    margin-top: 40px;
+  }
+  
+  .button:hover {
+    background-color: rgb(234, 234, 54);
+  }
+  
+  .button:active {
+    background-color: rgb(234, 234, 54);
+    transform: translateY(2px); /* add animation effect */
+  }
+  .card{
+    background-color: black;
+  }
+  .spacing{
+    display: grid;
+    grid-row-start: auto;
+  }
+  .bcolor{
+    filter: drop-shadow(1px 1px 50px orange);
+    background-color:orange ;
+    border-radius: 30%;
+    padding-right: 15px;
+    
+  }
+  .bcolor:hover {
+    background-color: rgb(234, 234, 54);
+  }
+  
+  .bcolor:active {
+    background-color: rgb(234, 234, 54);
+    transform: translateY(2px); /* add animation effect */
+  }
+  .al{
+    
+    justify-content: center;
+  }
+  @media(max-width :412px){
+    .other{
+      height: fit-content;
+      width: 50rem;
+      padding-right: 5px;
+    }
+  }
+  @media(max-width :375px){
+    .other{
+      height: fit-content;
+      width: 50rem;
+      padding-right: 5px;
+    }
+  }
+  @media(max-width :412px)and(min-height :914px){
+    .other{
+      height: fit-content;
+      width: 50rem;
+      padding-right: 5px;
+    }
+    .para{
+      display: block;
+      bottom: 0;
+    }
+  }
+  @media(max-width :1210px){
+    .other{
+      height: fit-content;
+      width: 60rem;
+      /* padding-right: ; */
+    }
+  }
+  @media(max-width :1050px){
+    .other{
+      height: fit-content;
+      width: 50rem;
+      /* padding-right: ; */
+    }
+  }
+  @media(max-width :962px){
+    .other{
+      height: fit-content;
+      width: 50rem;
+      /* padding-right: ; */
+    }
+  }
+  @media(max-width :768px){
+    .other{
+      height: fit-content;
+      width: auto;
+      /* padding-right: ; */
+    }
+  }
+  @media(max-width :893px){
+    .other{
+      height: fit-content;
+      width: 40rem;
+      margin-right:10px ;
+    }
+  }
